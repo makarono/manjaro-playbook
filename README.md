@@ -59,3 +59,8 @@ Bluemix setup:
  * Install the container-registry ibmcloud plugin install container-registry -r Bluemix
    Use 'ibmcloud plugin show container-registry' to show its details.
  * Install the kubernetes CLI tool (ibmcloud ks) : ibmcloud plugin install container-service
+
+
+#TEST
+
+ansible vagrant-test -i localhost -m ping

@@ -1,0 +1,17 @@
+---
+- name: Install yay
+  package:
+    name: yay
+    state: present
+  become: yes
+  tags:
+    - yay
+
+- name: Install Utils
+  yay:
+    #name: '{{ utils }}'
+    name: atom
+    state: present
+  become: yes
+  tags:
+    - yay

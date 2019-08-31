@@ -1,4 +1,5 @@
 ---
+  #https://www.shellhacks.com/linux-generate-password-hash/
 - name: Create a login user
   user:
     name: pmonteiro-work

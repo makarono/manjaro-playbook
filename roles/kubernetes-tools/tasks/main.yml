@@ -1,0 +1,9 @@
+---
+- name: Install Developer Tools
+  yay:
+    name: '{{ kubernetes_stack }}'
+    state: present
+  become_user: 'root'
+  become: yes
+  become_method: su
+

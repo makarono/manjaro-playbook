@@ -1,43 +1,101 @@
+
+
+
+
+
+oracle-instantclient12.1-basic
+oracle-instantclient12.1-devel
+oracle-instantclient12.1-odbc
+oracle-instantclient12.1-sqlplus
+plasma-desktop
+polkit
+polkit-kde-agent
+poppler
+poppler-data
+
+
+
+
 browsers_aur:
-    - google-chrome 73.0.3683.75-1
-    - chromedriver 73.0.3683.68-1
+    - google-chrome
+    - firefox-esr
 
 developer_stack:
     - jq
-    - docker
     - nodejs
     - npm
     - jre8-openjdk-headless jre8-openjdk jdk8-openjdk openjdk8-doc
-    - jre10-openjdk-headless jre10-openjdk jdk10-openjdk openjdk10-doc
     - maven
-    - clojure
-    - scala
-    - sbt
+    - soapui
+    - perl-perl-tidy
+    - git-crypt
+    - mycli
+    - beautysh
+    - gradle
+    - shellcheck
+    - shc
+    - remmina
+    - mysql-client
+    - mysql-workbench
+    - ca-certificates-java
+    - dbeaver-ce
+    - go-md2man
+    - go
+    - gitk
+
+
+devops_stack:
+    - docker
+    - docker-compose
+    - docker-squash
+    - terraform
+    - textql
+    - python-tabulate
+    - packer
+    - lnav
+    - bettercap
+    - circleci
+    - vagrant
+    - wireshark
+    - wireshark-cli
+    - vagrant
+    - sqlmap
+    - nmap
+    - aircrack-ng
+    - ansible
+    - cifs-utils
+    - google-cloud-sdk
+    - httpie
+
+kubernetes_stack:
+    - velero
+    - kubectl-bin
+    - helm
+    - k9s
 
 developer_stack_sudo:
-    - docker-compose
     - hub
 
 developer_stack_aur:
-    - leiningen
-    - bluemix-cli
-    - kubernetes
-    - kubectl-bin
+    - pet-bin
 
 editors:
     - vim
     - atom
-    - emacs
     - gimp
-
-editors_aur:
-    - intellij-idea-ultimate-edition
+    - kate
+    - kwrite
+    - code
 
 media:
-    - peek
+    - skypeforlinux
+    - vlc
+    - slack-desktop
+
 
 media_aur:
     - spotify
+    - viber
 
 shell_aliases:
     - alias ll='ls -lrt'
@@ -56,18 +114,128 @@ utils:
     - xclip
     - xorg-xinput
     - ntp
+    - pet-bin
+    - restic
+    - corgi
+    - exa
+    - fab
+    - viber
+    - p7zip
+    - antibody
+    - xz
+    - zip
+    - zsh
+    - etcher
+    - vpnc
+    - wget
+    - libnewt
+    - whois
+    - virtualbox
+    - sshfs
+    - strace
+    - tcpdump
+    - telnet
+    - terminator
+    - thunderbird
+    - traceroute
+    - tree
+    - unrar
+    - unzip
+    - usb_modeswitch
+    - rsync
+    - rsyslog
+    - screen
+    - pv
+    - python-paramiko
+    - libaio
+    - libao
+    - libreoffice
+    - lsof
+    - lynx
+    - make
+    - meld
+    - mlocate
+    - most
+    - mtr
+    - mutt
+    - nano
+    - net-tools
+    - openbsd-netcat
+    - nethogs
+    - arc-icon
+    - aspell
+    - aspell-en
+    - at
+    - autoconf
+    - autojump
+    - automake
+    - bash-completion
+    - bat
+    - bc
+    - binutils
+    - bison
+    - bleachbit
+    - base-devel
+    - ca-certificates
+    - dcfldd
+    - dialog
+    - dkms
+    - dnsutils
+    - dolphin
+    - dolphin-plugins
+    - dolphin-meld
+    - dos2unix
+    - dropbox
+    - hunspell-en_GB
+    - hunspell-en_US
+    - hunspell-hr
+    - kio
+    - kio-extras
+    - kolourpaint
+    - networkmanager-openvpn
+    - networkmanager-vpnc
+    - nfs-utils
+    - ntfs-3g
+    - openconnect
+    - openssl
+    - openvpn
+    - p7zip
+    - pandoc
+    - git
+    - curl
+    - e2fsprogs
+    - ethtool
+    - ffmpeg
+    - file
+    - findutils
+    - flashplugin
+    - fuse
+    - gcc
+    - adb
+    - clamav
+    - cmake
+    - coreutils
+    - cpio
+    - fzf
+    - cron
+    - gnome-keyring
+    - gnupg
+    - gparted
+    - gzip
+    - hddtemp
+    - hdparm
 
 utils_aur:
-    - lsdesktopf
-    - python2-pypdf2
+    - kismet
     - stapler
     - mkpasswd
     - git-extras
     - zsh-git-prompt
 
 printers_aur:
-    - brother-mfc-j415w
-    - brother-hl8350cdw
+    #- brother-mfc-j415w
+    #- brother-hl8350cdw
+    - cups
 
 zsh_plugins:
     - archlinux
@@ -81,4 +249,4 @@ zsh_plugins:
     - git-extras
 
 pip_packages:
-    - thefuck
+    - youtube-dl

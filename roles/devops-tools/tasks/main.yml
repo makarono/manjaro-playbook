@@ -1,0 +1,12 @@
+---
+- name: Install Developer Tools
+  yay:
+    name: '{{ devops_stack }}'
+    state: present
+  become_user: 'root'
+  become: yes
+  become_method: su
+
+
+- include: docker-config.yml
+

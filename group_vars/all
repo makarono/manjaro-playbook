@@ -3,17 +3,18 @@
 
 
 
-oracle-instantclient12.1-basic
-oracle-instantclient12.1-devel
-oracle-instantclient12.1-odbc
-oracle-instantclient12.1-sqlplus
+
 plasma-desktop
 polkit
 polkit-kde-agent
 poppler
 poppler-data
 
-
+oracle_stack:
+    - oracle-instantclient12.1-basic
+    - oracle-instantclient12.1-devel
+    - oracle-instantclient12.1-odbc
+    - oracle-instantclient12.1-sqlplus
 
 
 browsers_aur:
@@ -66,6 +67,8 @@ devops_stack:
     - cifs-utils
     - google-cloud-sdk
     - httpie
+    - concourse-fly
+    - vault-bin
 
 kubernetes_stack:
     - velero

@@ -69,6 +69,7 @@ devops_stack:
     - httpie
     - concourse-fly
     - vault-bin
+    - kind-bin
 
 kubernetes_stack:
     - velero

@@ -8,22 +8,29 @@ developer_stack:
     - npm
     - jre8-openjdk-headless jre8-openjdk jdk8-openjdk openjdk8-doc
     - maven
-    - soapui
-    - perl-perl-tidy
     - git-crypt
-    - mycli
-    - beautysh
     - gradle
     - shellcheck
-    - shc
     - remmina
     - mysql-client
     - mysql-workbench
     - ca-certificates-java
-    - dbeaver-ce
     - go-md2man
     - go
+
+
+developer_stack_aur:
+    - pet-bin
+    - soapui
+    - perl-perl-tidy
+    - mycli
+    - beautysh
+    - shc
+    - dbeaver-ce
     - gitk
+
+developer_stack_sudo:
+    - hub
 
 oracle_stack:
     - oracle-instantclient12.1-basic
@@ -65,11 +72,6 @@ kubernetes_stack:
     - k9s
     - kubefwd 
 
-developer_stack_sudo:
-    - hub
-
-developer_stack_aur:
-    - pet-bin
 
 editors:
     - vim
@@ -117,7 +119,6 @@ utils:
     - xclip
     - xorg-xinput
     - ntp
-    - pet-bin
     - restic
     - exa
     - p7zip
@@ -223,8 +224,8 @@ utils:
     - polkit
 
 utils_aur:
+    - pet-bin
     - kismet
-    - corgi
     - fabric
     - antibody
     - tree

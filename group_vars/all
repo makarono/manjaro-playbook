@@ -1,5 +1,3 @@
-
-
 browsers_aur:
     - google-chrome
     - firefox-esr
@@ -98,6 +96,10 @@ shell_aliases:
 kde:
     - plasma-desktop
     - polkit-kde-agent
+    - kdenetwork-filesharing
+    - kio
+    - kio-extras
+    - knetattach
 
 xfce:
     - xfce4-whiskermenu-plugin
@@ -117,12 +119,8 @@ utils:
     - ntp
     - pet-bin
     - restic
-    - corgi
     - exa
-    - fab
-    - viber
     - p7zip
-    - antibody
     - xz
     - zip
     - zsh
@@ -135,7 +133,7 @@ utils:
     - sshfs
     - strace
     - tcpdump
-    - telnet
+    - inetutils
     - terminator
     - thunderbird
     - traceroute
@@ -144,7 +142,6 @@ utils:
     - unzip
     - usb_modeswitch
     - rsync
-    - rsyslog
     - screen
     - pv
     - python-paramiko
@@ -163,7 +160,6 @@ utils:
     - net-tools
     - openbsd-netcat
     - nethogs
-    - arc-icon
     - aspell
     - aspell-en
     - at
@@ -184,14 +180,13 @@ utils:
     - dnsutils
     - dolphin
     - dolphin-plugins
-    - dolphin-meld
-    - dos2unix
-    - dropbox
-    - hunspell-en_GB
-    - hunspell-en_US
-    - hunspell-hr
+    - kdenetwork-filesharing
     - kio
     - kio-extras
+    - knetattach
+    - dos2unix
+    - hunspell-en_GB
+    - hunspell-en_US
     - kolourpaint
     - networkmanager-openvpn
     - networkmanager-vpnc
@@ -229,10 +224,18 @@ utils:
 
 utils_aur:
     - kismet
+    - corgi
+    - fabric
+    - antibody
+    - tree
+    - dolphin-meld
+    - dropbox
+    - hunspell-hr
     - stapler
     - mkpasswd
     - git-extras
     - zsh-git-prompt
+
 
 printers_aur:
     #- brother-mfc-j415w

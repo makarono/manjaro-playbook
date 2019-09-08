@@ -37,6 +37,7 @@
     path: /home/{{ user_name }}/.config/terminator
     state: directory
   become: yes
+  become_user: '{{ user_name }}'
 
 - name: Configure Terminator
   copy:

@@ -12,7 +12,7 @@ developer_stack:
     - gradle
     - shellcheck
     - remmina
-    - mysql-client
+    - mysql-clients
     - mysql-workbench
     - ca-certificates-java
     - go-md2man

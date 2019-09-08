@@ -1,0 +1,6 @@
+---
+- name: install kde desktop
+  pacman:
+    name: '{{ kde }}'
+    state: present
+  become: yes

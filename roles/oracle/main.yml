@@ -1,0 +1,12 @@
+---
+- name: "add oracle repo"
+  shell: printf '[oracle]\nSigLevel = Optional TrustAll\nServer = http://linux.shikadi.net/arch/$repo/$arch/\n' >> /etc/pacman.conf
+
+
+- name: install oracle instant client
+  pacman:
+    name: '{{ oracle_stack }}'
+    state: present
+  become: yes
+
+#install rana ora golang driver

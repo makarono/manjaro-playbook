@@ -8,8 +8,11 @@
   #- { role: browsers,        tags: ['browsers'] }
   #- { role: developer-tools, tags: ['dev-tools'] }
   #- { role: devops-tools,    tags: ['devops-tools'] }
-  #- { role: kubernetes-tools,    tags: ['kubernetes-tools'] }
+  #- { role: kubernetes-tools,tags: ['kubernetes-tools'] }
+  #- { role: oracle,          tags: ['oracle'] }
   #- { role: editors,         tags: ['editors'] }
   #- { role: media,           tags: ['media'] }
   #- { role: gnome,           tags: ['gnome'] }
+  #- { role: kde,             tags: ['kde'] }
+  #- { role: xfce,            tags: ['xfce'] }
 

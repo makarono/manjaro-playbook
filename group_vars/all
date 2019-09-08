@@ -1,22 +1,5 @@
 
 
-
-
-
-
-plasma-desktop
-polkit
-polkit-kde-agent
-poppler
-poppler-data
-
-oracle_stack:
-    - oracle-instantclient12.1-basic
-    - oracle-instantclient12.1-devel
-    - oracle-instantclient12.1-odbc
-    - oracle-instantclient12.1-sqlplus
-
-
 browsers_aur:
     - google-chrome
     - firefox-esr
@@ -43,6 +26,12 @@ developer_stack:
     - go-md2man
     - go
     - gitk
+
+oracle_stack:
+    - oracle-instantclient12.1-basic
+    - oracle-instantclient12.1-devel
+    - oracle-instantclient12.1-odbc
+    - oracle-instantclient12.1-sqlplus
 
 
 devops_stack:
@@ -106,6 +95,13 @@ shell_aliases:
     - alias ll='ls -lrt'
     - alias vi=vim
     - alias rgrep='grep -r'
+kde:
+    - plasma-desktop
+    - polkit-kde-agent
+
+xfce:
+    - xfce4-whiskermenu-plugin
+    - xfce-polkit
 
 utils:
     - binutils
@@ -229,6 +225,7 @@ utils:
     - gzip
     - hddtemp
     - hdparm
+    - polkit
 
 utils_aur:
     - kismet
@@ -249,7 +246,7 @@ zsh_plugins:
     - docker-compose
     - dotenv
     - spring
-    - thefuck
+    #- thefuck
     - git-prompt
     - git-extras
 

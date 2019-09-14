@@ -82,14 +82,13 @@ editors:
     - code
 
 media:
-    - skypeforlinux
     - vlc
-    - slack-desktop
 
 
 media_aur:
-    - spotify
     - viber
+    - slack-desktop
+    - skypeforlinux-stable-bin
 
 shell_aliases:
     - alias ll='ls -lrt'

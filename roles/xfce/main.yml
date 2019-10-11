@@ -1,1 +1,6 @@
 ---
+- name: Install xfce packages
+  pacman:
+    name: '{{ xfce }}'
+    state: present
+  become: yes

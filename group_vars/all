@@ -64,6 +64,7 @@ devops_stack:
     - concourse-fly-bin
     - vault-bin
     - kind-bin
+    - socat
 
 kubernetes_stack:
     - velero-bin
@@ -104,6 +105,7 @@ kde:
 
 xfce:
     - xfce4-whiskermenu-plugin
+    - xfce4-screensaver
     - xfce-polkit
 
 utils:
@@ -254,3 +256,4 @@ zsh_plugins:
 
 pip_packages:
     - youtube-dl
+

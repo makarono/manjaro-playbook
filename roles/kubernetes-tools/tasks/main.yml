@@ -1,5 +1,5 @@
 ---
-- name: Install Developer Tools
+- name: Install Kubernetes Tools
   yay:
     name: '{{ kubernetes_stack }}'
     state: present

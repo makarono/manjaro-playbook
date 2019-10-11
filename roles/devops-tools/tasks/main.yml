@@ -1,5 +1,5 @@
 ---
-- name: Install Developer Tools
+- name: Install Devops Tools
   yay:
     name: '{{ devops_stack }}'
     state: present

@@ -44,15 +44,15 @@ devops_stack:
     - docker-compose
     - docker-squash
     - terraform
-    - textql
+    #- textql
     - python-tabulate
     - packer
     - lnav
     - bettercap
-    - circleci
+    #- circleci
     - vagrant
     - wireshark
-    - wireshark-cli
+    #- wireshark-cli
     - vagrant
     - sqlmap
     - nmap
@@ -61,16 +61,16 @@ devops_stack:
     - cifs-utils
     - google-cloud-sdk
     - httpie
-    - concourse-fly
+    - concourse-fly-bin
     - vault-bin
     - kind-bin
 
 kubernetes_stack:
-    - velero
+    - velero-bin
     - kubectl-bin
     - helm
     - k9s
-    - kubefwd 
+    - kubefwd-bin
 
 
 editors:

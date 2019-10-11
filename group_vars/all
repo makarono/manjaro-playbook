@@ -228,7 +228,6 @@ utils_aur:
     - fabric
     - antibody
     - tree
-    - dolphin-meld
     - dropbox
     - hunspell-hr
     - stapler

@@ -27,7 +27,7 @@ developer_stack_aur:
     - beautysh
     - shc
     - dbeaver-ce
-    - gitk
+    
 
 developer_stack_sudo:
     - hub
